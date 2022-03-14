@@ -1,0 +1,120 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  
+  .titlebox {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-image: url(IMAGES/pexels-fwstudio-131683.jpg);
+  }
+  
+ .nav{
+     text-align: center;
+ }
+
+ li {
+    display: inline;
+  }
+
+  .main {
+    float: left;
+    width: 70%;
+  }
+  
+  .aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  
+  .img1 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url(IMAGES/pexels-miguel-á-padriñán-1591060.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    
+    
+  }
+
+  .img2 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url(IMAGES/pexels-markus-spiske-965345.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    
+  }
+
+  .img3 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url(IMAGES/IMG-0754.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    
+  }
+  
+  .img4 {
+    background-color: #aaa;
+    width: 75%;
+    padding: 20px;
+    background-image: url(IMAGES/pexels-christina-morillo-1181259.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .img5 {
+    background-color: #aaa;
+    width: 50%;
+    padding: 20px;
+    background-image: url(IMAGES/pexels-christina-morillo-1181672.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .socials {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    background-image: url(IMAGES/pexels-fwstudio-131683.jpg);
+    
+  }
+  
+ 
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
