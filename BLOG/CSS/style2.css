@@ -1,0 +1,24 @@
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
